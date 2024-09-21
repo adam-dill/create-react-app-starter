@@ -61,7 +61,9 @@ export const ApiProvider = ({ children }) => {
                     error: null
                 });
             } catch (error) {
-                setData({ ...data, isLoading: false, error: error.message });
+                setData(d => {
+                    return { ...d, isLoading: false, error: error.message }
+                });
             }
         };
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Loader, Header, Navigation, Section, About, Contact, Education, Experience, Toolbox } from './components';
+import { Loader, Header, Navigation, Section, About, Contact, Education, Toolbox } from './components';
 import showdown from 'showdown';
 import { useApi } from './data/ApiContext';
 
@@ -16,7 +16,7 @@ export const getDateString = (dateString) => {
 };
 
 function App() {
-  const { isLoading, error } = useApi();
+  const { isLoading } = useApi();
 
   return (
     <div className="App">

@@ -1,4 +1,4 @@
-import React, {useState, useEffect, cloneElement} from 'react';
+import React, {useState, cloneElement} from 'react';
 import { useApi } from '../data/ApiContext';
 
 export default function Section({ children }) {
