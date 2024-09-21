@@ -1,11 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import React from "react";
+import ReactDOM from "react-dom";
+import 'bootstrap/dist/css/bootstrap.css';
+import "./index.css";
+import App from "./App";
+import { ApiProvider } from "./data/ApiContext";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+ReactDOM.render(
+    <React.StrictMode>
+        <ApiProvider>
+            <App />
+        </ApiProvider>
+    </React.StrictMode>,
+    document.getElementById("root")
 );

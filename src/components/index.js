@@ -1,0 +1,9 @@
+export {default as Section} from './Section';
+export {default as Loader} from './Loader';
+export {default as Header} from './Header';
+export {default as Navigation} from './Navigation';
+export {default as About} from './About';
+export {default as Contact} from './Contact';
+export {default as Education} from './Education';
+export {default as Experience} from './Experience';
+export {default as Toolbox} from './Toolbox';

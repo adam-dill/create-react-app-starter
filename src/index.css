@@ -1,13 +1,169 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+    font-family: 'HeaderFont';
+    src: url('fonts/advent-pro/AdventPro-Regular.ttf');
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color:#227daa;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4 { font-family: 'HeaderFont', sans-serif; letter-spacing: 0.1rem; }
+h1 {font-size: 2rem !important;}
+h2 {font-size: 4rem;}
+h3 {font-size: 1.5rem; font-weight: 700;}
+
+.aqua { color: #33ccff; }
+.navbar {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    backdrop-filter: blur(5px) !important;
+}
+
+.loader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position:fixed;
+    background-color: rgba(37, 141, 175, 0.5);
+    backdrop-filter: blur(10px);
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    font-size: 1.5rem;
+    backdrop-filter: blur(5px);
+    z-index: 10000;
+}
+
+header {
+    height: 100vh;
+    color: white;
+}
+
+header .header-content {
+    position: absolute;
+    bottom: 4rem;
+    width: 100%;
+}
+
+.hero {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.hero img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.hero .tint {
+    position: absolute;
+    width: 100%;
+    height:100%;
+    background-color: rgba(37, 141, 175, 0.7);
+}
+
+.project-container {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    margin-bottom: 3rem;
+}
+
+.project-container:last-child {
+    margin-bottom: 0;
+}
+
+section {
+    margin: 0;
+    padding: 3rem 0;
+}
+
+.sub-header {
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.title-icon {
+    font-size: 5rem;
+    margin-top: 1rem;
+}
+
+.display-list, .display-list-experience, .display-list ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.display-list li {
+    margin-bottom: 2.5rem;
+}
+
+.display-list li:last-of-type {
+    margin-bottom: 0;
+}
+
+.display-list ul li {
+    display: inline-block;
+    padding: 0.2rem 1rem;
+    margin: 0.2rem;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.display-list-experience ul {
+    list-style-type: disc;
+}
+
+.display-list-experience>li {
+    margin-bottom: 2.5rem;
+}
+
+.display-list-experience>li:last-of-type {
+    margin-bottom: 0;
+}
+
+.social-media-icon {
+    max-height: 40px;
+    max-width: auto;
+    margin-right: 1.3rem;
+}
+
+section:nth-child(odd) {
+    background: linear-gradient(180deg,#227daa 0,#51accd);
+    color: white;
+}
+
+section:nth-child(odd) a {
+    color: white;
+}
+
+section:nth-child(even) a {
+    color: #227daa;
+}
+section:nth-child(even) .display-list ul li {
+    border: 1px solid #227daa;
+}
+
+section:nth-child(even) .bg-light {
+    background-color: #227daa !important;
+    color: white !important;
+}
+
+/* Bootstrap md breakpoint */
+@media only screen and (max-width: 991px) {
+    .title-icon {
+        font-size: 3rem;
+        margin:0 1rem 3rem 0;
+    }
+    h2 { font-size: 2.5rem;}
 }
