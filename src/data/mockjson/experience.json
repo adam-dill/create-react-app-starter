@@ -1,0 +1,307 @@
+{
+    "data": {
+        "id": 1,
+        "attributes": {
+            "createdAt": "2024-09-07T13:47:33.271Z",
+            "updatedAt": "2024-09-28T22:36:41.458Z",
+            "publishedAt": "2024-09-08T21:10:04.365Z",
+            "ResumeSectionHeader": {
+                "id": 2,
+                "IconClass": "fa-solid fa-laptop",
+                "Title": "Experience"
+            },
+            "ExperienceEntries": [
+                {
+                    "id": 12,
+                    "CompanyName": "HTLF Bank",
+                    "SubcontractName": null,
+                    "StartDate": "2021-02-01",
+                    "EndDate": "2022-02-01",
+                    "CompanyUrl": null,
+                    "JobTitle": "Programmer",
+                    "ExperienceTask": [
+                        {
+                            "id": 41,
+                            "ExperienceTask": "Worked in Salesforce to create a customer portal using Salesforce proprietary languages Apex on the backend, and Lightning Web Components on the frontend."
+                        },
+                        {
+                            "id": 42,
+                            "ExperienceTask": "Trained the team on the use of version control to keep our code safe. Developed a CI/CD pipeline for the project that prevented errors with code not being promoted through the environments properly."
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "CompanyName": "Wells Fargo",
+                    "SubcontractName": null,
+                    "StartDate": "2020-02-01",
+                    "EndDate": "2021-02-01",
+                    "CompanyUrl": null,
+                    "JobTitle": "App System Engineer",
+                    "ExperienceTask": [
+                        {
+                            "id": 1,
+                            "ExperienceTask": "Assisted in rebuilding the company website in React. The site used a CMS to generate all data which the front-end would consume."
+                        },
+                        {
+                            "id": 2,
+                            "ExperienceTask": "Developed new features at request of business and marketing teams to implement into the site."
+                        },
+                        {
+                            "id": 3,
+                            "ExperienceTask": "Worked with different, internal teams to develop various tools to assist in their productivity.\n\nThese tools include an automated screen capture and a system that will capture live data from the database, and export it as a formatted word document."
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "CompanyName": "Carley Corporation",
+                    "SubcontractName": null,
+                    "StartDate": "2017-06-01",
+                    "EndDate": "2020-01-01",
+                    "CompanyUrl": null,
+                    "JobTitle": "Programmer",
+                    "ExperienceTask": [
+                        {
+                            "id": 4,
+                            "ExperienceTask": "Develop courseware for various military branches."
+                        },
+                        {
+                            "id": 5,
+                            "ExperienceTask": "Tasked to develop new features, as well as debug existing features, for a government web application."
+                        },
+                        {
+                            "id": 6,
+                            "ExperienceTask": "Features were developed to completion with Angular 7 work on the client and ASP.NET with C# and MS SQL on the backend ."
+                        },
+                        {
+                            "id": 7,
+                            "ExperienceTask": "Architect projects to be more modular to allow updates that could be applied across multiple projects."
+                        },
+                        {
+                            "id": 8,
+                            "ExperienceTask": "Implement development process and build the supporting tools to automate tasks."
+                        },
+                        {
+                            "id": 9,
+                            "ExperienceTask": "Build custom tools for designers and graphic artists to assist them in production."
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "CompanyName": "Electronic Arts - Tiburon",
+                    "SubcontractName": null,
+                    "StartDate": "2015-01-01",
+                    "EndDate": "2016-08-01",
+                    "CompanyUrl": null,
+                    "JobTitle": "UI Scripter",
+                    "ExperienceTask": [
+                        {
+                            "id": 10,
+                            "ExperienceTask": "UI Development in Flash for Madden Football game title using EA proprietary technology and pipeline."
+                        },
+                        {
+                            "id": 11,
+                            "ExperienceTask": "Apply designs on top of existing UI framework for both in-game and frontend UI elements using Flash and Actionscript."
+                        },
+                        {
+                            "id": 12,
+                            "ExperienceTask": "Develop new, as well as update existing components in Actionscript to be used in future game releases."
+                        },
+                        {
+                            "id": 13,
+                            "ExperienceTask": "Assist other team members with automated scripts to streamline their work."
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "CompanyName": "accesso",
+                    "SubcontractName": null,
+                    "StartDate": "2014-07-01",
+                    "EndDate": "2014-12-01",
+                    "CompanyUrl": null,
+                    "JobTitle": "UI Engineer",
+                    "ExperienceTask": [
+                        {
+                            "id": 14,
+                            "ExperienceTask": "Maintain and update legacy Flex applications related to web service driven eCommerce software."
+                        },
+                        {
+                            "id": 16,
+                            "ExperienceTask": "Maintain and update web-based applications written in PHP on top of CakePHP."
+                        },
+                        {
+                            "id": 17,
+                            "ExperienceTask": "Work with backend team to produce new features for existing applications."
+                        },
+                        {
+                            "id": 15,
+                            "ExperienceTask": "Quickly trouble shoot QA reported bugs in production."
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "CompanyName": "Carley Corporation",
+                    "SubcontractName": null,
+                    "StartDate": "2013-07-01",
+                    "EndDate": "2014-07-01",
+                    "CompanyUrl": null,
+                    "JobTitle": "Programmer",
+                    "ExperienceTask": [
+                        {
+                            "id": 19,
+                            "ExperienceTask": "Develop SCORM compliant simulation training in Actionscript 3."
+                        },
+                        {
+                            "id": 21,
+                            "ExperienceTask": "Lead the development of a NAVY Communication Room simulation.\n\nThe simulation was considered “free-play” in that the user could virtually connect the multiple components in any configuration, and the system would function in a similar manner to real life. In order for the student to complete a particular scenario, however, they would need to connect a specific circuit that was provided."
+                        },
+                        {
+                            "id": 18,
+                            "ExperienceTask": "Assist in development on several simulations that were SCORM compliant, and free standing, but also used in the other projects as tools, such as a multimeter, or TDR."
+                        },
+                        {
+                            "id": 20,
+                            "ExperienceTask": "Contribute to general purpose framework used by other projects. Create scripts in python, JSFL (JS based Flash IDE language), and batch that assisted in reducing time during production."
+                        }
+                    ]
+                },
+                {
+                    "id": 7,
+                    "CompanyName": "Electronic Arts - Tiburon",
+                    "SubcontractName": null,
+                    "StartDate": "2011-11-01",
+                    "EndDate": "2013-07-01",
+                    "CompanyUrl": null,
+                    "JobTitle": "UI Scripter",
+                    "ExperienceTask": [
+                        {
+                            "id": 22,
+                            "ExperienceTask": "UI Development in Flash for NCAA Football 14 game title using EA proprietary technology and pipeline."
+                        },
+                        {
+                            "id": 23,
+                            "ExperienceTask": "Apply designs on top of existing UI framework for both in-game and frontend UI elements using Flash and Actionscript."
+                        },
+                        {
+                            "id": 24,
+                            "ExperienceTask": "Develop new, as well as update existing components in Actionscript to be used in future game releases."
+                        }
+                    ]
+                },
+                {
+                    "id": 9,
+                    "CompanyName": "General Dynamics IT",
+                    "SubcontractName": null,
+                    "StartDate": "2011-11-01",
+                    "EndDate": "2012-06-01",
+                    "CompanyUrl": null,
+                    "JobTitle": "Web Programmer",
+                    "ExperienceTask": [
+                        {
+                            "id": 25,
+                            "ExperienceTask": "Create online training material for the VA with the front-end written in DHTML/JavaScript. Classic ASP was used to communicate to the MSSQL database. Courses had varying degrees of 508 restrictions to be considered, as well as SCORM and LMS integration."
+                        },
+                        {
+                            "id": 26,
+                            "ExperienceTask": "Used jQuery to add additional effects to new or existing projects. Built a functional prototype demonstrating the use of jQuery with AJAX to simplify the existing client-side development process while maintaining 508 compliance."
+                        },
+                        {
+                            "id": 27,
+                            "ExperienceTask": "Developed a prototype version of an office style simulation to train management level employees for the VA. The simulation GUI was developed in Flash Builder with Flex 3.6 and utilized SOAP services for bilateral server communication. It included several simulated tools that would be found in the employee’s environment, such as an email system and phone with messaging. The user was expected to respond according the situation that was being presented, and was grading based on their actions."
+                        }
+                    ]
+                },
+                {
+                    "id": 8,
+                    "CompanyName": "nFocus Software",
+                    "SubcontractName": null,
+                    "StartDate": "2008-01-01",
+                    "EndDate": "2011-11-01",
+                    "CompanyUrl": null,
+                    "JobTitle": "Courseware Developer",
+                    "ExperienceTask": [
+                        {
+                            "id": 28,
+                            "ExperienceTask": "Design and Develop courseware for military training using variety of technology, including Flash, HTM/CSS, and other third-party software."
+                        },
+                        {
+                            "id": 29,
+                            "ExperienceTask": "Design and Develop SCORM compliant courseware for military training using HTML/CSS and Saba software tools to be deployed in Saba LMS."
+                        },
+                        {
+                            "id": 30,
+                            "ExperienceTask": "Develop online help systems for existing military software."
+                        },
+                        {
+                            "id": 31,
+                            "ExperienceTask": "Assisted in the maintenance of the flagship product, KidTrax, which was an ASP.NET MVC web application written in C# with MS SQL as the database."
+                        },
+                        {
+                            "id": 32,
+                            "ExperienceTask": "Helped design and develop the company website built in Wordpress with a custom theme that used PHP, Javascript, and jQuery. I worked mostly with the backend, but would assist the front-end developers with the CSS as well."
+                        }
+                    ]
+                },
+                {
+                    "id": 10,
+                    "CompanyName": "Unitech",
+                    "SubcontractName": null,
+                    "StartDate": "2007-10-01",
+                    "EndDate": "2008-01-01",
+                    "CompanyUrl": null,
+                    "JobTitle": "Flash Developer",
+                    "ExperienceTask": [
+                        {
+                            "id": 33,
+                            "ExperienceTask": "Developed military training simulations and interactive media."
+                        },
+                        {
+                            "id": 34,
+                            "ExperienceTask": "Assisted with company promotional material."
+                        },
+                        {
+                            "id": 35,
+                            "ExperienceTask": "Optimized Unitech’s Language Training Tool built in Flash, making for easier maintenance."
+                        },
+                        {
+                            "id": 36,
+                            "ExperienceTask": "Updated portions of the HTML/AJAX version of the Unitech-One company website."
+                        }
+                    ]
+                },
+                {
+                    "id": 11,
+                    "CompanyName": "Candace Crowe Design",
+                    "SubcontractName": null,
+                    "StartDate": "2005-08-01",
+                    "EndDate": "2007-10-01",
+                    "CompanyUrl": null,
+                    "JobTitle": "Interactive Developer",
+                    "ExperienceTask": [
+                        {
+                            "id": 37,
+                            "ExperienceTask": "Developed client web sites using HTML and CSS, with minor PHP."
+                        },
+                        {
+                            "id": 38,
+                            "ExperienceTask": "Maintenance of client hosting and SEO."
+                        },
+                        {
+                            "id": 39,
+                            "ExperienceTask": "Created support graphics and client logos for websites and promotional materials."
+                        },
+                        {
+                            "id": 40,
+                            "ExperienceTask": "Developed a Flash application written in Actionscript 2 used by doctors for patient education which was deployed on touch screen iMacs as a kiosk system. The project was ported to web to allow the clients to embed the Flash interface into their existing website. A CMS was developed in PHP to allow the clients to update portions of the interface."
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "meta": {}
+}

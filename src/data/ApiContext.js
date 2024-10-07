@@ -7,6 +7,7 @@ const ApiContext = createContext();
 const Endpoints = {
     HEADER: 'https://strapi-production-c51f.up.railway.app/api/header?populate=*',
     ABOUT: 'https://strapi-production-c51f.up.railway.app/api/about?populate=*',
+    EXPERIENCE: 'https://strapi-production-c51f.up.railway.app/api/experience?populate[ResumeSectionHeader][populate]=*&populate[ExperienceEntries][populate]=*',
     CONTACT: 'https://strapi-production-c51f.up.railway.app/api/contact?populate=*',
     EDUCATION: 'https://strapi-production-c51f.up.railway.app/api/education?populate=*',
     SOCIAL: 'https://strapi-production-c51f.up.railway.app/api/social?populate[ResumeSectionHeader][populate]=*&populate[SocialMediaItems][populate]=*',
@@ -29,6 +30,7 @@ export const ApiProvider = ({ children }) => {
     const [data, setData] = useState({
         header: null,
         about: null,
+        experience: null,
         contact: null,
         education: null,
         social: null,
@@ -41,9 +43,10 @@ export const ApiProvider = ({ children }) => {
         // Fetch all data concurrently
         const fetchAllData = async () => {
             try {
-                const [header, about, contact, education, social, toolbox] = await Promise.all([
+                const [header, about, experience, contact, education, social, toolbox] = await Promise.all([
                     fetchData('HEADER'),
                     fetchData('ABOUT'),
+                    fetchData('EXPERIENCE'),
                     fetchData('CONTACT'),
                     fetchData('EDUCATION'),
                     fetchData('SOCIAL'),
@@ -51,12 +54,13 @@ export const ApiProvider = ({ children }) => {
                 ]);
 
                 setData({
-                    header: header.data,
-                    about: about.data,
-                    contact: contact.data,
-                    education: education.data,
-                    social: social.data,
-                    toolbox: toolbox.data,
+                    header: header?.data,
+                    about: about?.data,
+                    experience: experience?.data,
+                    contact: contact?.data,
+                    education: education?.data,
+                    social: social?.data,
+                    toolbox: toolbox?.data,
                     isLoading: false,
                     error: null
                 });

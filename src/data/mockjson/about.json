@@ -1,0 +1,17 @@
+{
+    "data": {
+        "id": 1,
+        "attributes": {
+            "AboutText": "With over ten years experience programming user interfaces in the private sector, personal projects, and department of defense contracting, I am able to adapt to several coding scenarios. I can develop entirely new UI systems from scratch, troubleshoot and enhance existing code or quickly become a member of a production pipeline. My main interest is in increasing production efficiency and lowering costs through automation.",
+            "createdAt": "2024-09-07T20:23:52.200Z",
+            "updatedAt": "2024-09-08T20:59:01.237Z",
+            "publishedAt": "2024-09-07T20:23:53.410Z",
+            "ResumeSectionHeader": {
+                "id": 3,
+                "IconClass": "fa-solid fa-user",
+                "Title": "About"
+            }
+        }
+    },
+    "meta": {}
+}

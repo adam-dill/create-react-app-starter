@@ -1,0 +1,19 @@
+{
+    "data": {
+        "id": 1,
+        "attributes": {
+            "createdAt": "2024-09-07T13:47:12.395Z",
+            "updatedAt": "2024-09-08T21:09:59.242Z",
+            "publishedAt": "2024-09-08T21:09:59.239Z",
+            "Phone": "407.790,1740",
+            "Email": "contact@adamdilll.com",
+            "Website": "www.adamdill.com",
+            "ResumeSectionHeader": {
+                "id": 1,
+                "IconClass": "none",
+                "Title": "Contact"
+            }
+        }
+    },
+    "meta": {}
+}

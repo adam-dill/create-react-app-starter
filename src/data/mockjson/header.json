@@ -1,0 +1,89 @@
+{
+    "data": {
+        "id": 1,
+        "attributes": {
+            "Title": "Adam Dill",
+            "SubTitle": "UI Developer",
+            "createdAt": "2024-09-08T20:22:33.502Z",
+            "updatedAt": "2024-09-08T21:10:06.627Z",
+            "publishedAt": "2024-09-08T21:10:06.624Z",
+            "AllowResumeDownload": true,
+            "BackgroundImage": {
+                "data": {
+                    "id": 1,
+                    "attributes": {
+                        "name": "notebook-and-coffee-at-office-desk-.jpg",
+                        "alternativeText": null,
+                        "caption": null,
+                        "width": 970,
+                        "height": 647,
+                        "formats": {
+                            "small": {
+                                "ext": ".jpg",
+                                "url": "https://res.cloudinary.com/dt1hxx29w/image/upload/v1725827779/small_notebook_and_coffee_at_office_desk_d3739ca800.jpg",
+                                "hash": "small_notebook_and_coffee_at_office_desk_d3739ca800",
+                                "mime": "image/jpeg",
+                                "name": "small_notebook-and-coffee-at-office-desk-.jpg",
+                                "path": null,
+                                "size": 25.77,
+                                "width": 500,
+                                "height": 334,
+                                "sizeInBytes": 25766,
+                                "provider_metadata": {
+                                    "public_id": "small_notebook_and_coffee_at_office_desk_d3739ca800",
+                                    "resource_type": "image"
+                                }
+                            },
+                            "medium": {
+                                "ext": ".jpg",
+                                "url": "https://res.cloudinary.com/dt1hxx29w/image/upload/v1725827779/medium_notebook_and_coffee_at_office_desk_d3739ca800.jpg",
+                                "hash": "medium_notebook_and_coffee_at_office_desk_d3739ca800",
+                                "mime": "image/jpeg",
+                                "name": "medium_notebook-and-coffee-at-office-desk-.jpg",
+                                "path": null,
+                                "size": 48.49,
+                                "width": 750,
+                                "height": 500,
+                                "sizeInBytes": 48492,
+                                "provider_metadata": {
+                                    "public_id": "medium_notebook_and_coffee_at_office_desk_d3739ca800",
+                                    "resource_type": "image"
+                                }
+                            },
+                            "thumbnail": {
+                                "ext": ".jpg",
+                                "url": "https://res.cloudinary.com/dt1hxx29w/image/upload/v1725827779/thumbnail_notebook_and_coffee_at_office_desk_d3739ca800.jpg",
+                                "hash": "thumbnail_notebook_and_coffee_at_office_desk_d3739ca800",
+                                "mime": "image/jpeg",
+                                "name": "thumbnail_notebook-and-coffee-at-office-desk-.jpg",
+                                "path": null,
+                                "size": 7.47,
+                                "width": 234,
+                                "height": 156,
+                                "sizeInBytes": 7468,
+                                "provider_metadata": {
+                                    "public_id": "thumbnail_notebook_and_coffee_at_office_desk_d3739ca800",
+                                    "resource_type": "image"
+                                }
+                            }
+                        },
+                        "hash": "notebook_and_coffee_at_office_desk_d3739ca800",
+                        "ext": ".jpg",
+                        "mime": "image/jpeg",
+                        "size": 67.54,
+                        "url": "https://res.cloudinary.com/dt1hxx29w/image/upload/v1725827779/notebook_and_coffee_at_office_desk_d3739ca800.jpg",
+                        "previewUrl": null,
+                        "provider": "cloudinary",
+                        "provider_metadata": {
+                            "public_id": "notebook_and_coffee_at_office_desk_d3739ca800",
+                            "resource_type": "image"
+                        },
+                        "createdAt": "2024-09-08T20:36:19.826Z",
+                        "updatedAt": "2024-09-08T20:36:19.826Z"
+                    }
+                }
+            }
+        }
+    },
+    "meta": {}
+}

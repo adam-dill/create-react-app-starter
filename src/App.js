@@ -1,5 +1,5 @@
 import React from 'react';
-import { Loader, Header, Navigation, Section, About, Contact, Education, Toolbox } from './components';
+import { Loader, Header, Navigation, Section, About, Experience, Contact, Education, Toolbox } from './components';
 import showdown from 'showdown';
 import { useApi } from './data/ApiContext';
 
@@ -29,9 +29,9 @@ function App() {
       <Section>
           <Toolbox />
       </Section>
-      {/*<Section>
+      <Section>
           <Experience />
-      </Section>*/}
+      </Section>
       <Section>
           <Education />
       </Section>

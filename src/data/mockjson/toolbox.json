@@ -1,0 +1,160 @@
+{
+    "data": {
+        "id": 1,
+        "attributes": {
+            "createdAt": "2024-09-08T20:53:49.837Z",
+            "updatedAt": "2024-09-08T21:10:39.718Z",
+            "publishedAt": "2024-09-08T21:10:39.715Z",
+            "ResumeSectionHeader": {
+                "id": 6,
+                "IconClass": "none",
+                "Title": "Toolbox"
+            },
+            "ListSections": [
+                {
+                    "id": 1,
+                    "Title": "Languages",
+                    "ListItem": [
+                        {
+                            "id": 1,
+                            "ItemText": "Javascript"
+                        },
+                        {
+                            "id": 2,
+                            "ItemText": "Typescript"
+                        },
+                        {
+                            "id": 3,
+                            "ItemText": "NodeJS"
+                        },
+                        {
+                            "id": 4,
+                            "ItemText": "Actionscript"
+                        },
+                        {
+                            "id": 5,
+                            "ItemText": "HTML5/CSS3"
+                        },
+                        {
+                            "id": 6,
+                            "ItemText": "C#"
+                        },
+                        {
+                            "id": 7,
+                            "ItemText": "ASP.NET"
+                        },
+                        {
+                            "id": 8,
+                            "ItemText": "PHP"
+                        },
+                        {
+                            "id": 9,
+                            "ItemText": "Objective-C"
+                        },
+                        {
+                            "id": 11,
+                            "ItemText": "Swift"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "Title": "Libraries & Frameworks",
+                    "ListItem": [
+                        {
+                            "id": 12,
+                            "ItemText": "React"
+                        },
+                        {
+                            "id": 10,
+                            "ItemText": "NextJS"
+                        },
+                        {
+                            "id": 13,
+                            "ItemText": "jQuery"
+                        },
+                        {
+                            "id": 14,
+                            "ItemText": "Angular"
+                        },
+                        {
+                            "id": 15,
+                            "ItemText": "Backbone"
+                        },
+                        {
+                            "id": 17,
+                            "ItemText": "Bootstrap"
+                        },
+                        {
+                            "id": 16,
+                            "ItemText": "CakePHP"
+                        },
+                        {
+                            "id": 18,
+                            "ItemText": "Flex"
+                        },
+                        {
+                            "id": 19,
+                            "ItemText": "PureMVC"
+                        },
+                        {
+                            "id": 20,
+                            "ItemText": "Robot Legs"
+                        },
+                        {
+                            "id": 21,
+                            "ItemText": "Parsley"
+                        },
+                        {
+                            "id": 22,
+                            "ItemText": "GraphQL"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "Title": "Other Tools",
+                    "ListItem": [
+                        {
+                            "id": 24,
+                            "ItemText": "Version Control (Git, SVN, Perforce)"
+                        },
+                        {
+                            "id": 23,
+                            "ItemText": "Jira"
+                        },
+                        {
+                            "id": 25,
+                            "ItemText": "Agile"
+                        },
+                        {
+                            "id": 27,
+                            "ItemText": "NodeJS"
+                        },
+                        {
+                            "id": 26,
+                            "ItemText": "Web Services (SOAP, REST, GraphQL)"
+                        },
+                        {
+                            "id": 31,
+                            "ItemText": "Relational Database"
+                        },
+                        {
+                            "id": 28,
+                            "ItemText": "Design Patterns"
+                        },
+                        {
+                            "id": 30,
+                            "ItemText": "Batch/Bash Scripting"
+                        },
+                        {
+                            "id": 29,
+                            "ItemText": "Unity Engine"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "meta": {}
+}
